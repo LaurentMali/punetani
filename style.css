@@ -31,10 +31,14 @@ body {
 }
 
 .logo {
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    width: auto;
 }
 
 .nav-links {

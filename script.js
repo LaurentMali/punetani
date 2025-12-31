@@ -382,14 +382,14 @@ function applyForJob(jobId) {
                 <div class="form-row">
                     <div class="form-group-full">
                         <label for="app-name">Emri dhe Mbiemri *</label>
-                        <input type="text" id="app-name" required placeholder="p.sh. Arben Demolli">
+                        <input type="text" id="app-name" required placeholder="p.sh. Laurent Mali">
                     </div>
                 </div>
                 
                 <div class="form-row">
                     <div class="form-group-half">
                         <label for="app-email">Email *</label>
-                        <input type="email" id="app-email" required placeholder="arben@example.com">
+                        <input type="email" id="app-email" required placeholder="laurent@example.com">
                     </div>
                     <div class="form-group-half">
                         <label for="app-phone">Telefoni *</label>
