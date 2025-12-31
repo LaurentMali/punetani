@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuneTani - Platforma më e madhe e punëve në Kosovë</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="nav-container">
+        <a href="#" class="logo">PuneTani</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about" onclick="event.preventDefault(); showAboutPage();">Rreth Nesh</a></li>
+                <li><a href="#" class="cta-button" onclick="event.preventDefault(); openPostJobForm();">Posto një Punë</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-container">
+        <h1>Gjen Punën e Ëndrrave në Kosovë</h1>
+        <p>Platforma më e madhe e punëve në Kosovë që lidh talentet me kompanitë më të mira</p>
+    </div>
+</section>
+
+<!-- Search Section -->
+<section class="search-section">
+    <div class="search-container">
+        <div class="search-box">
+            <form class="search-form">
+                <div class="form-group">
+                    <label for="job-title">Pozita ose Kompania</label>
+                    <input type="text" id="job-title" placeholder="p.sh. Zhvillues Web, Inxhinier, Menaxher...">
+                </div>
+                <div class="form-group">
+                    <label for="location">Lokacioni</label>
+                    <input type="text" id="location" placeholder="Prishtinë, Prizren, Pejë...">
+                </div>
+                <button type="submit" class="search-btn">Kërko Punë</button>
+            </form>
+
+            <div class="filter-options">
+                <label class="filter-checkbox">
+                    <input type="checkbox"> Kohë e plotë
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox"> Kohë e pjesshme
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox"> Punë nga shtëpia
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox"> Praktikë
+                </label>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services">
+    <div class="services-container">
+        <h2>Si mund të të ndihmojmë?</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">💼</div>
+                <h3>Gjej Punën e Përshtatshme</h3>
+                <p>Kërko midis mijëra ofertave të punës nga kompanitë më të mira në Kosovë. Filtro sipas pozitës, lokacionit dhe llojit të punës.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Apliko Lehtësisht</h3>
+                <p>Apliko për punë me vetëm një klik. Ruaj CV-në tënde dhe aplikacionet e tua në një vend të sigurt.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🏢</div>
+                <h3>Për Kompanitë</h3>
+                <p>Gjej kandidatët më të mirë për pozitat e tua. Publiko oferta pune dhe menaxho aplikacionet në mënyrë efikase.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats">
+    <div class="stats-container">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">5,000+</div>
+                <div class="stat-label">Oferta Pune Aktive</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">1,200+</div>
+                <div class="stat-label">Kompani të Regjistruara</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">25,000+</div>
+                <div class="stat-label">Kandidatë të Regjistruar</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">3,500+</div>
+                <div class="stat-label">Punë të Realizuara</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3>PuneTani</h3>
+                <p>Platforma më e madhe e punëve në Kosovë që lidh talentet me kompanitë më të mira të vendit.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Për Kandidatët</h3>
+                <ul>
+                    <li><a href="#">Kërko Punë</a></li>
+                    <li><a href="#">Krijo CV</a></li>
+                    <li><a href="#">Këshilla Karriere</a></li>
+                    <li><a href="#">Regjistrohuni</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Për Kompanitë</h3>
+                <ul>
+                    <li><a href="#">Posto Punë</a></li>
+                    <li><a href="#">Menaxho Aplikacionet</a></li>
+                    <li><a href="#">Plane Çmimesh</a></li>
+                    <li><a href="#">Kontakto Shitjet</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Mbështetje</h3>
+                <ul>
+                    <li><a href="#">Qendra e Ndihmës</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="#">Privatësia</a></li>
+                    <li><a href="#">Kushtet e Përdorimit</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 PunaKS. Të gjitha të drejtat e rezervuara.</p>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
