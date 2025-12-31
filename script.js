@@ -818,3 +818,30 @@ function showAboutPage() {
         }
     });
 }
+// Mobile Menu Toggle
+function toggleMobileMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    const hamburger = document.querySelector('.hamburger');
+    const overlay = document.querySelector('.mobile-overlay');
+
+    navLinks.classList.toggle('active');
+    hamburger.classList.toggle('active');
+    overlay.classList.toggle('active');
+}
+
+// Close mobile menu when clicking a link
+document.addEventListener('DOMContentLoaded', function() {
+    const navLinksItems = document.querySelectorAll('.nav-links a');
+    navLinksItems.forEach(link => {
+        link.addEventListener('click', function() {
+            if (window.innerWidth <= 768) {
+                toggleMobileMenu();
+            }
+        });
+    });
+});
+
+// Show All Jobs (for "Punë" button)
+function showAllJobs() {
+    displayJobs(demoJobs);
+}
