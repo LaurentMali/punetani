@@ -1,0 +1,11 @@
+[
+  {
+    "id": "notif-1",
+    "title": "Punë e re e përshtatshme!",
+    "message": "Gjirafa Inc. ka postuar një pozitë të re: \"Senior Frontend React Developer\" në Prishtinë që përputhet me preferencat tuaja.",
+    "time": "Para 10 minutash",
+    "isRead": false,
+    "type": "job_match",
+    "linkJobId": "job-1"
+  }
+]

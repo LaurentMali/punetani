@@ -1,0 +1,102 @@
+[
+  {
+    "id": "job-1",
+    "title": "Senior Frontend React Developer",
+    "company": "Gjirafa Inc.",
+    "logo": "GJ",
+    "city": "Prishtinë",
+    "category": "Teknologji & Programim",
+    "type": "Kohë e plotë",
+    "salary": "2,200€ - 3,000€",
+    "description": "Ne po kërkojmë një Senior Frontend Developer me përvojë të thellë në React, Tailwind CSS dhe TypeScript për të udhëhequr zhvillimin e produkteve tona të rradhës në tregun e Kosovës dhe rajonit.",
+    "requirements": [
+      "Mbi 5 vite përvojë pune me React dhe JavaScript/TypeScript.",
+      "Njohuri të shkëlqyera të HTML5, CSS3 dhe Tailwind CSS.",
+      "Përvojë me state management (Redux, Zustand apo React Context).",
+      "Njohuri në optimizimin e performancës së aplikacioneve web."
+    ],
+    "responsibilities": [
+      "Zhvillimi i komponentëve të ripërdorshëm me kod të pastër dhe të testueshëm.",
+      "Bashkëpunimi magnetized me dizajnerët UI/UX dhe inxhinierët backend.",
+      "Mentorimi i anëtarëve junior të ekipit tonë.",
+      "Përmirësimi i vazhdueshëm i arkitekturës frontend."
+    ],
+    "postedAt": "2026-06-28T10:00:00.000Z",
+    "isFeatured": true
+  },
+  {
+    "id": "job-2",
+    "title": "UI/UX Designer",
+    "company": "Radix",
+    "logo": "RX",
+    "city": "Prishtinë",
+    "category": "Dizajn & Kreativitet",
+    "type": "Punë nga shtëpia",
+    "salary": "1,400€ - 1,800€",
+    "description": "Radix kërkon një UI/UX Designer pasionant që do të marrë përgjegjësinë për krijimin e eksperiencave të shkëlqyera digjitale për klientët tanë ndërkombëtarë.",
+    "requirements": [
+      "Përvojë e dëshmuar si UI/UX Designer me një portfolio të pasur.",
+      "Zotërim i shkëlqyer i Figma, Adobe XD dhe Illustrator.",
+      "Kuptueshmëri e lartë e parimeve të User-Centered Design.",
+      "Aftësi të shkëlqyera komunikimi në gjuhën angleze."
+    ],
+    "responsibilities": [
+      "Krijimi i wireframes, prototipeve dhe dizajneve përfundimtare vizuale.",
+      "Kërkimi i përdoruesve (user research) dhe testimi i prototipeve.",
+      "Përcaktimi i sistemeve të dizajnit (Design Systems) të qëndrueshme.",
+      "Prezantimi i koncepteve tek palët e interesuara."
+    ],
+    "postedAt": "2026-06-27T14:30:00.000Z",
+    "isFeatured": true
+  },
+  {
+    "id": "job-3",
+    "title": "Menaxher i Marketingut Digjital",
+    "company": "Albi Group",
+    "logo": "AG",
+    "city": "Fushë Kosovë",
+    "category": "Marketing & Shitje",
+    "type": "Kohë e plotë",
+    "salary": "950€ - 1,300€",
+    "description": "Albi Group kërkon një profesionist kreativ për të udhëhequr fushatat tona të marketingut digjital, me fokus në rritjen e pranisë sonë online dhe angazhimin e klientëve.",
+    "requirements": [
+      "Diplomë Fakulteti në Marketing apo fusha të ngjashme.",
+      "Mbi 2 vite përvojë pune në menaxhimin e rrjeteve sociale dhe fushatave me pagesë.",
+      "Përvojë me Google Ads, Meta Business Suite dhe Google Analytics.",
+      "Shkathtësi të larta në shkrimin e përmbajtjes (copywriting) në gjuhën shqipe."
+    ],
+    "responsibilities": [
+      "Planifikimi dhe ekzekutimi i strategjisë së marketingut digjital.",
+      "Monitorimi dhe raportimi i performancës së fushatave reklamuese.",
+      "Krijimi i përmbajtjes vizuale dhe tekstuale për rrjete sociale.",
+      "Bashkëpunimi me ekipe të ndryshme për promovimin e produkteve të reja."
+    ],
+    "postedAt": "2026-06-26T09:15:00.000Z",
+    "isFeatured": false
+  },
+  {
+    "id": "job-4",
+    "title": "Praktikant në Departamentin e Financave",
+    "company": "NLB Banka",
+    "logo": "NL",
+    "city": "Prizren",
+    "category": "Financa & Banka",
+    "type": "Praktikë",
+    "salary": "350€ - 450€",
+    "description": "NLB Banka hap dyert për studentët apo të sapodiplomuarit e fushës së Ekonomisë për një praktikë 6-mujore me mundësi punësimi të rregullt pas përfundimit.",
+    "requirements": [
+      "Student i vitit të fundit apo i sapodiplomuar në Fakultetin Ekonomik.",
+      "Njohuri të mira të punës me kompjuter (MS Excel).",
+      "Persona të organizuar, të saktë dhe të gatshëm për të mësuar.",
+      "Njohja e gjuhës angleze është përparësi."
+    ],
+    "responsibilities": [
+      "Asistimi në përgatitjen e raporteve ditore financiare.",
+      "Regjistrimi dhe verifikimi i transaksioneve sipas procedurave të bankës.",
+      "Mbështetja administrative e departamentit të financave.",
+      "Pjesëmarrja në trajnime të organizuara nga banka."
+    ],
+    "postedAt": "2026-06-25T11:00:00.000Z",
+    "isFeatured": false
+  }
+]

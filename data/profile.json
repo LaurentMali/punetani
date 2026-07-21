@@ -1,0 +1,19 @@
+{
+  "name": "Lirim Kastrati",
+  "title": "Full Stack Web Developer",
+  "email": "lirim.kastrati@email.com",
+  "phone": "+383 44 123 456",
+  "bio": "Developer i pasionuar me përvojë 3 vjeçare në krijimin e aplikacioneve moderne me React, Node.js dhe Tailwind CSS. Me seli në Prishtinë, i gatshëm për projekte inovative.",
+  "skills": [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Node.js",
+    "Express",
+    "SQL",
+    "Git"
+  ],
+  "preferredCity": "Prishtinë",
+  "preferredCategory": "Teknologji & Programim",
+  "preferredType": "Kohë e plotë"
+}

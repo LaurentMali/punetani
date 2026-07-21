@@ -1,0 +1,6 @@
+{
+  "name": "PunëTani",
+  "description": "Ein modernes, kachelbasiertes Jobportal für den Kosovo mit intuitiver Suche, Bewerberprofilen, Recruiter-Dashboard und Benachrichtigungen.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
